@@ -1,0 +1,11 @@
+name: tabpy
+environment: #add what environment you want to deploy to
+replicas: #number of replicas
+image: <aws-ecr-repo> 
+tag:
+port: 9004
+host: <configure host for ssl connection> 
+
+secrets:
+  username: <username>
+  password: <password>
